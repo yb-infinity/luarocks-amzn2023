@@ -1,0 +1,33 @@
+# Build artifacts
+rpmbuild-output/
+*.rpm
+*.tar.gz
+*.tar.xz
+
+# RPM build directories
+rpmbuild/
+RPMS/
+SRPMS/
+SOURCES/
+SPECS/
+BUILD/
+BUILDROOT/
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Downloaded sources
+luarocks-*.tar.gz
+rpmbuild-output/
